@@ -1,0 +1,243 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+/* .main-container {
+    margin: 0;
+    padding: 0;
+} */
+.main-menu {
+    width: 100%;
+    margin-bottom: 120px;
+    background: url("images/new-bg.jpg") no-repeat;
+    background-size: cover;
+}
+.nav-rem {
+    font-size: 0.9rem;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.light-green-bg {
+    background-color: rgba(51, 214, 135, 255);
+}
+.light-green-text {
+    color: rgb(86, 214, 165);
+}
+.box-shadow-1 {
+    box-shadow: 1px 1px 7px 1px rgb(116, 113, 113);
+}
+.mini-menu-container {
+    margin: 0 auto;
+    transform: translateY(50%);
+}
+.text-blue {
+    color: rgba(14, 106, 167, 255);
+}
+.bg-light-grey {
+    background-color: rgb(252, 251, 239);
+}
+.works-container {
+    min-height: 300px;
+}
+.works-container > h2 {
+    padding: 25px 0;
+}
+.rem-point {
+    font-size: 0.8rem;
+}
+.bg-green {
+    background-color: rgb(186, 231, 186);
+}
+.bg-blue {
+    background-color: lightblue;
+}
+.bg-yellow {
+    background-color: rgb(241, 241, 168);
+}
+.bg-light-red {
+    background-color: rgb(223, 190, 190);
+}
+.employee-access {
+    min-height: 450px;
+    background-color: rgb(241, 231, 231);
+}
+.text-brown {
+    color: brown;
+}
+.bg-brown {
+    background-color: rgba(223, 99, 87, 255);
+}
+.rounded-bottom-15 {
+    border-radius: 0 0 15px 15px;
+}
+.rounded-top-15 {
+    border-radius: 15px 15px 0 0;
+}
+.bg-light-color {
+    background-color: rgb(247, 239, 229);
+}
+.icon-content .icon-text {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+.icon-content .icon-text .text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+}
+.icon-content .icon-text i {
+    margin: 5px;
+}
+.h-80 {
+    height: 80%;
+}
+.bg-light-brown {
+    background-color: rgb(216, 221, 140);
+}
+.personalize-services {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.service-icon-with-text {
+    display: flex;
+    justify-content: flex-start;
+}
+.service-icon-with-text i {
+    margin: 5px;
+}
+.service-icon-with-text .service-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.personalize-services .customer-support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-light-grey {
+    background-color: rgb(245, 234, 234);
+}
+.plan-with-icon .plan-text h6 {
+    font-size: 0.9rem;
+}
+.plan-with-icon {
+    display: flex;
+    justify-content: flex-start;
+}
+.plan-with-icon .plan-icon {
+    margin: 10px;
+}
+.plan-with-icon .plan-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.plan-with-icon {
+    margin: 0 auto;
+}
+.col-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer-support img {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.bg-lit-green {
+    background-color: rgb(41, 184, 112);
+}
+.footer-menu ul {
+    list-style-type: none;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    color: rgb(253, 254, 253);
+    font-size: 0.8rem;
+}
+
+.bg-dark-grey {
+    background-color: rgb(54, 66, 104);
+}
+.footer-menu .menu-title p {
+    color: rgb(253, 254, 253);
+    font-weight: bold;
+}
+.footer-menu .menu-title {
+    margin: 15px 0;
+}
+.content-menu-title {
+    display: flex;
+    flex-direction: column;
+}
+.content-menu-title .menu-title {
+    display: flex;
+    justify-content: center;
+}
+.content-menu-title .menu-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-content ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+.footer-content ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer-content ul li {
+    margin: 0 5px;
+}
+.footer-content hr {
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+    color: black;
+}
+.footer-content .discount {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.footer-address {
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 0.7rem;
+}
+.work-container {
+    box-shadow: 1px 1px 7px 1px rgb(192, 190, 190);
+}
+.work-container p {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.work-card {
+    display: flex;
+    justify-content: center;
+}
+.service-container {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    align-items: center;
+}
+.bg-lit-brown {
+    background-color: rgb(248, 216, 174);
+}
+.service-container .service-text {
+    display: flex;
+    flex-direction: column;
+}
+.whatsapp-email {
+    position: fixed;
+    top: 30%;
+    right: 0%;
+}
